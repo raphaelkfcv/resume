@@ -177,6 +177,15 @@
     header .other_page {
         border: 2px solid white;
     }
+    
+    #button_text_button {
+        width: 100%;
+        display: flex;
+    }
+    
+    #button_text_button p {
+        margin: 0;
+    }
     /* MAIN */
     
     main {
@@ -356,10 +365,10 @@
     @media screen and (max-width: 840px) {
         body {
             background-color: white;
-            height: 2847px;
+            height: 3227px;
         }
         #main_cv {
-            height: 2847px;
+            height: 3227px;
             width: 100%;
         }
         header {
@@ -381,14 +390,20 @@
         #header_text {
             margin-left: 4px;
         }
+        #button_text_button {
+            flex-direction: column-reverse;
+        }
+        #button_text_button p {
+            display: none;
+        }
         main {
             flex-direction: column-reverse;
-            height: 2620px;
+            height: 3000px;
         }
         #main_experiences {
             width: 100%;
             padding-left: 0;
-            height: 1550px;
+            height: 1964px;
         }
         .main_header_section {
             height: 50px
@@ -397,7 +412,7 @@
             margin-top: 25px;
         }
         .main_experience_text_section {
-            height: 1680px;
+            height: 1903px;
         }
         #main_formation_competence {
             width: 100%;
