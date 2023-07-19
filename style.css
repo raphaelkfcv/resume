@@ -200,8 +200,8 @@
     #main_formation_competence {
         display: flex;
         flex-direction: column;
-        width: 30%;
-        height: 1200px;
+        width: 20%;
+        height: 1500px;
     }
     
     .main_text_section {
@@ -260,7 +260,7 @@
     /* EXPERIENCES */
     
     #main_experiences {
-        width: 60%;
+        width: 70%;
         height: 1500px;
         display: flex;
         flex-direction: column;
@@ -280,7 +280,7 @@
     
     .experience {
         display: flex;
-        width: 90%;
+        width: 100%;
         flex-direction: column;
         justify-content: center;
     }
@@ -338,12 +338,15 @@
         color: blue;
         text-decoration: underline;
     }
+    .detailed_experience_no_padding {
+        padding: 0;
+    }
     
     section .main_header_section {
         height: 62px;
     }
     
-    @media screen and (min-width: 841px) and (max-width: 1270px) {
+    @media screen and (min-width: 1024px) and (max-width: 1394px) {
         body {
             background-color: white;
         }
@@ -362,7 +365,7 @@
         }
     }
     
-    @media screen and (max-width: 840px) {
+    @media screen and (max-width: 1023px) {
         body {
             background-color: white;
             height: 3227px;
@@ -398,12 +401,12 @@
         }
         main {
             flex-direction: column-reverse;
-            height: 3000px;
+            height: 3100px;
         }
         #main_experiences {
             width: 100%;
             padding-left: 0;
-            height: 1964px;
+            height: 2200px;
         }
         .main_header_section {
             height: 50px
@@ -412,7 +415,7 @@
             margin-top: 25px;
         }
         .main_experience_text_section {
-            height: 1903px;
+            height: 2100px;
         }
         #main_formation_competence {
             width: 100%;
