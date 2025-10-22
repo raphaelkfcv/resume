@@ -201,7 +201,7 @@
         display: flex;
         flex-direction: column;
         width: 20%;
-        height: 1500px;
+        height: 1810px;
     }
     
     .main_text_section {
@@ -230,14 +230,14 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        height: 50%;
+        height: 23%;
     }
     
     .main_competence_child {
         display: flex;
         flex-direction: column;
         align-items: center;
-        height: 50%;
+        height: 70%;
     }
     
     .text_content p {
@@ -261,7 +261,7 @@
     
     #main_experiences {
         width: 70%;
-        height: 1500px;
+        height: 1810px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -271,7 +271,7 @@
     
     .main_experience_text_section {
         width: 98%;
-        height: 93%;
+        height: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
